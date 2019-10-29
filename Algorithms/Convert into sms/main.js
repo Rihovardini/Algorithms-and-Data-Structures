@@ -1,6 +1,6 @@
   function solutionMessages(string, maxSmsLength) {
     const words = string.split(' ');
-    const isValid = words.some(word => word.length <= maxSmsLength) 
+    const isValid = words.every(word => word.length <= maxSmsLength) 
                     && string.length <= 500
                     && string.length > 0;
 
