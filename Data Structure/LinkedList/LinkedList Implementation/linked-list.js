@@ -67,7 +67,6 @@ class LinkedList {
     }
 
     appendTo(value, index = 0) {
-
         if (this.indexValidation(index)) {
             return null;
         }
@@ -95,7 +94,6 @@ class LinkedList {
     }
 
     removeNode(index = 0) {
-
         if (this.indexValidation(index)) {
             return null;
         }
