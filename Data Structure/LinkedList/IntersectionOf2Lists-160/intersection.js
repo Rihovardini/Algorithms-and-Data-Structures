@@ -9,7 +9,6 @@ function getIntersectionNode (headA, headB) {
     if (!(headA && headB)) return null;
     
     while (currA || currB) {
-         
         if (currA) {
             countA++;
             currA = currA.next;
