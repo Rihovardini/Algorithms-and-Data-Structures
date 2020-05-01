@@ -1,3 +1,5 @@
+// Time and Space Complexity  - O(n)
+
 var maxDepth = function(root) {
   if (!root) return 0;
   
