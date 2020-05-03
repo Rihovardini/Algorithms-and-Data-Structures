@@ -37,4 +37,4 @@ var maxDepth2 = function(root) {
   for(const child of root.children) {
       max = Math.max(maxDepth(child), max);
   }
-  
+} 
