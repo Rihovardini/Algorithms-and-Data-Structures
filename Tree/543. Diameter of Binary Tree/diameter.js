@@ -1,4 +1,4 @@
-// Time and Space Complexity  - O(n)
+// Time and Space Complexity - O(n)
 
 var diameterOfBinaryTree = function(node) {
   let diameter = 0;
