@@ -1,4 +1,4 @@
-// Time complexity - O (log n);
+// Time complexity - O (n);
 // Space complexity - O (1)
 
 var searchBST = function(root, val) {
