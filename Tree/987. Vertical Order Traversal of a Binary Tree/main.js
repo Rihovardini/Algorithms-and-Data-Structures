@@ -18,11 +18,9 @@ const traverse = (node, x, y, hash) => {
 
 var verticalTraversal = function(root) {
   const hash = {};
-  const arr = [];
+  const verticalHash = {};
   
   traverse(root, 0, 0, hash);
-  const keys = Object.keys(hash);
-  const verticalHash = {};
       
   for (const levelKey in hash) {
       for(const verticalKey in hash[levelKey]) {
