@@ -1,4 +1,4 @@
-// Time and space complexity  O (n)
+// Time and space complexity - O (n)
 
 var insertIntoMaxTree = function(root, val) {
   if (root === null) {
@@ -8,7 +8,6 @@ var insertIntoMaxTree = function(root, val) {
   if (val > root.val) {
       return new TreeNode(val, root);
   }
-  
   
   root.right = insertIntoMaxTree(root.right, val);
   
